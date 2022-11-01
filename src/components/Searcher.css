@@ -22,8 +22,7 @@
 }
 
 .container h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .result {
@@ -31,8 +30,25 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 960px) {
     .form__input {
-        width: 280px;
+        width: 300px;
+    }
+
+    .form__button {
+        width: ;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 420px) {
+    .form__input {
+        width: 155px;
     }
 }

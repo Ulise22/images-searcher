@@ -8,8 +8,6 @@ const Result = (props) => {
      const showImages = () => {
         const images = props.pic;
 
-        console.log(images)
-
         return (
             <div>
                 <div>
